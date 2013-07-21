@@ -1,0 +1,129 @@
+\documentclass[10pt, letterpaper]{tabcv}
+
+%%%% XeLaTeX settings - Use these to set document fonts %%%
+\usepackage{fontspec,xltxtra,xunicode}
+\defaultfontfeatures{Mapping=tex-text}
+\setromanfont[Mapping=tex-text]{Adobe Garamond Pro}
+
+% packages to make header
+\usepackage{lettrine}
+\usepackage{graphicx} % for resizebox
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%  To highlight author name in publications sections   %%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\bibliographystyle{myPlain}
+% otherwise try, e.g. \bibliographystyle{plain}
+
+% \myname{*} will appear bold in \pubsin{}
+\def\myname{Jonathan Botts}%
+
+% you could change \textbf to \emph or any other command
+ \newcommand{\FormatName}[1]{%
+   \edef\name{#1}%
+   \ifx\name\myname
+     \textbf{#1}%
+   \else
+        #1%
+   \fi
+ }
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+% if there are publications to be added
+% comment out otherwise
+\nobibliography{BottsPubs}
+
+%%%%%%% Title/Heading/Name %%%%%%%%%%%%
+% You're on your own here... 
+
+\begin{flushright}
+\textcolor{darkBlue}{ \Huge
+\lettrine[lines=2,findent=-1pt, loversize = -0.42, lraise=0.6]{J}{onathan M. Botts}}\\[-1.5pt]
+\textcolor{Gray}{\resizebox{0.398\linewidth}{!}{+358 46 907 1245 $\cdot$  botts.jonathan@gmail.com }}
+\end{flushright}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{cvblock}{Education}
+    \cvitem{December 2012}{ {\bf Ph.D.} Rensselaer Polytechnic Institute, Architectural Sciences, Acoustics}
+    \cvitem{Ph.D. Thesis}{\em Bayesian spectrum representation in acoustics}
+    \cvitem{Advisor}{Prof. Ning Xiang}
+    \cvitem{Relevant Coursework}{Acoustics and room acoustics, vibrations, measurement techniques, psychoacoustics, numerical PDE, neural networks and genetic algorithms, methods of applied math}
+
+    \\[-6pt]
+
+    \cvitem{ August 2009 }{ {\bf Master of Science} Rensselaer Polytechnic Institute, Architectural Sciences, Acoustics}
+    \cvitem{M.S. Thesis}{\em A low-frequency investigation of coupled volume systems using finite-difference time-domain methods.}
+
+    \\[-6pt]
+
+    \cvitem{May 2008}{ {\bf Bachelor of Science} Drake University, Mathematics, Physics}
+\end{cvblock}
+
+
+\begin{cvblock}{Research Experience}
+    \cvitem{2012--2014}{{\bf Post-Doctoral Researcher}, Aalto University, School of Science, Espoo Finland}
+    \cvitem{2008--2012}{{\bf Research Assistant}, Architectural Acoustics, Rensselaer Polytechnic Institute}
+    \cvitem{Summer 2009}{{\bf Research Intern}, Microflown Technologies, Arnhem, The Netherlands}
+    \cvitem{2006--2007}{{\bf Research Assistant}, Dept. of Mathematics and Computer Science, Drake University}
+\end{cvblock}
+
+
+\begin{cvblock}{Skills and Interests}
+    \cvitem{Areas}{Statistical sampling methods and Bayesian inference, acoustic simulation and numerical partial differential equations, acoustic measurement techniques}
+    \cvitem{Languages}{Python/NumPy/SciPy $\cdot$ Matlab $\cdot$ \LaTeX $\cdot$ Mathematica $\cdot$ HTML/CSS $\cdot$ \emph{basic C/C++}}
+\end{cvblock}
+
+\begin{cvblock}{Awards}
+    \cvitem{2012}{\emph{Leo Beranek Student Medal} - Institute of Noise Control Engineering}
+    \cvitem{2012}{\emph{Fulbright Student Research Grant} (deferred)}
+    \cvitem{2009-2011}{\emph{HASS Fellowship}, Rensselaer Polytechnic Institute}
+    \cvitem{2010}{\emph{ICA Young Scientist Award}, International Congress on Acoustics, Sydney}
+    \cvitem{2008}{\emph{Outstanding Student in Mathematics}, Dept. of Mathematics, Drake University}
+    \cvitem{2004-2008}{\emph{Presidential Scholarship}, Drake University}
+    \cvitem{2004-2008}{\emph{Music Scholarship}, trumpet, Drake University}
+\end{cvblock}
+
+
+\begin{cvblock}{Professional Service}
+    \cvitem{2010-Present}{{\bf Reviewer }- Journal of the Acoustical Society of America, IEEE Transactions on Audio, Speech, and Language Processing, JASA Express Letters}
+    \cvitem{2012}{{\bf Session organizer} - Acoustics 2012, Hong Kong}
+    \cvitem{2011}{{\bf Session organizer} - 161st Meeting of the ASA, Seattle}
+\end{cvblock}
+
+
+\begin{cvblock}{Teaching}
+    \cvitem{2012}{{\bf Guest instructor}, Sonics Research Lab II, Rensselaer Polytechnic Institute}
+    \cvitem{2011-2012}{{\bf Mentor}, Rensselaer Polytechnic Inst. and Emma Willard High School}
+    \cvitem{2007}{{\bf Physics Tutor}, Department of Physics and Astronomy, Drake University}
+\end{cvblock}
+
+\begin{cvblock}{Affiliations}
+    \cvitem{2009--Present}{Acoustical Society of America}
+    \cvitem{2012--Present}{Institute of Electrical and Electronics Engineers}
+    \cvitem{2012--Present}{IEEE Signal Processing Society}
+    \cvitem{2004--2008}{Phi Mu Alpha Sinfonia: President, treasurer of the Alpha-Beta chapter}
+\end{cvblock}
+
+\clearpage
+
+\begin{cvblock}{Journal and Proceedings Papers}
+    \pubsin{2013}{Botts2013c,Botts2013b,Botts2013a,Henderson2013,Botts2013,Jasa2013,Luizard2013}
+    \pubsin{2012}{Botts2012d,Botts2012c,Henderson2012a}
+    \pubsin{2010}{Xiang2010,Botts2010a}
+    \pubsin{2009}{Tijs2009}
+\end{cvblock}
+
+
+\begin{cvblock}{Book Chapters\\ and Review}
+    \pubsin{2014}{Svensson2014}
+    \pubsin{2012}{Robinson2012}
+    \pubsin{2009}{Botts2009b}
+\end{cvblock}
+
+\end{document}
