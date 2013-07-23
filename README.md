@@ -3,7 +3,7 @@ LaTeXCV
 
 A LaTeX class for making an academic CV, based on tables and the article class.
 
-I have put several macros, that I use for making my own CV or résumé, into a LaTeX class.  I have taken several pieces or ideas from [here](https://github.com/roycoding/fancyresume), some from Eric Dieckman's [article-class-based CV](http://ericdieckman.com/), and from Cameron Fackler's [Internoise class](https://github.com/cfackler/internoise2012-latex).  There is no license since I've mostly put together freely available pieces from forum threads and elsewhere on the internet.
+I have put several macros, that I use for making my own CV or résumé, into a LaTeX class.  I have taken several pieces from [Nicolas Favre-Félix's](https://github.com/nicolasff) CV template referenced [here](https://github.com/roycoding/fancyresume), some from Eric Dieckman's [article-class-based CV](http://ericdieckman.com/), and from Cameron Fackler's [Internoise class](https://github.com/cfackler/internoise2012-latex).  There is no license since I've mostly put together freely available pieces from forum threads and elsewhere on the internet.
 
 I've included one version of my own CV as an example.
 
