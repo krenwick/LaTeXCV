@@ -1,9 +1,9 @@
-\documentclass[10pt, letterpaper]{tabcv}
+\documentclass[10pt, letterpaper]{../tabcv}
 
 %%%% XeLaTeX settings - Use these to set document fonts %%%
 \usepackage{fontspec,xltxtra,xunicode}
 \defaultfontfeatures{Mapping=tex-text}
-\setromanfont[Mapping=tex-text]{Adobe Garamond Pro}
+%\setromanfont[Mapping=tex-text]{Adobe Garamond Pro}
 
 % packages to make header
 \usepackage{lettrine}
@@ -16,7 +16,7 @@
 % otherwise try, e.g. \bibliographystyle{plain}
 
 % \myname{*} will appear bold in \pubsin{}
-\def\myname{Jonathan Botts}%
+\def\myname{Katherine Renwick}%
 
 % you could change \textbf to \emph or any other command
  \newcommand{\FormatName}[1]{%
@@ -42,88 +42,112 @@
 
 \begin{flushright}
 \textcolor{darkBlue}{ \Huge
-\lettrine[lines=2,findent=-1pt, loversize = -0.42, lraise=0.6]{J}{onathan M. Botts}}\\[-1.5pt]
-\textcolor{Gray}{\resizebox{0.398\linewidth}{!}{+358 46 907 1245 $\cdot$  botts.jonathan@gmail.com }}
+\lettrine[lines=2,findent=-1pt, loversize = -0.42, lraise=0.6]{K}{atherine M. Renwick}}\\[-1.5pt]
+\textcolor{Gray}{\resizebox{0.54\linewidth}{!}{Postdoctoral Researcher, Montana State University }}\\[-1.5pt]
+\textcolor{Gray}{\resizebox{0.54\linewidth}{!}{607-229-3179 $\cdot$  katie.renwick@gmail.com $\cdot$ katierenwick.wordpress.com}}
 \end{flushright}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \begin{cvblock}{Education}
-    \cvitem{December 2012}{ {\bf Ph.D.} Rensselaer Polytechnic Institute, Architectural Sciences, Acoustics}
-    \cvitem{Ph.D. Thesis}{\em Bayesian spectrum representation in acoustics}
-    \cvitem{Advisor}{Prof. Ning Xiang}
-    \cvitem{Relevant Coursework}{Acoustics and room acoustics, vibrations, measurement techniques, psychoacoustics, numerical PDE, neural networks and genetic algorithms, methods of applied math}
+    \cvitem{2015}{ {\bf Ph.D.} Colorado State University, Fort Collins, CO}
+    \cvitem{}{Graduate Degree Program in Ecology}
+    %\cvitem{Advisor}{Dr. Monique Rocca}
 
     \\[-6pt]
 
-    \cvitem{ August 2009 }{ {\bf Master of Science} Rensselaer Polytechnic Institute, Architectural Sciences, Acoustics}
-    \cvitem{M.S. Thesis}{\em A low-frequency investigation of coupled volume systems using finite-difference time-domain methods.}
+    \cvitem{2007}{ {\bf B.A.} Colby College, Waterville, ME}
+    \cvitem{}{Double Major: Environmental Studies and Classics}
+    \cvitem{}{\em summa cum laude}
+    %\cvitem{M.S. Thesis}{\em A low-frequency investigation of coupled volume systems using finite-difference time-domain methods.}
 
     \\[-6pt]
 
-    \cvitem{May 2008}{ {\bf Bachelor of Science} Drake University, Mathematics, Physics}
 \end{cvblock}
 
 
-\begin{cvblock}{Research Experience}
-    \cvitem{2012--2014}{{\bf Post-Doctoral Researcher}, Aalto University, School of Science, Espoo Finland}
-    \cvitem{2008--2012}{{\bf Research Assistant}, Architectural Acoustics, Rensselaer Polytechnic Institute}
-    \cvitem{Summer 2009}{{\bf Research Intern}, Microflown Technologies, Arnhem, The Netherlands}
-    \cvitem{2006--2007}{{\bf Research Assistant}, Dept. of Mathematics and Computer Science, Drake University}
+\begin{cvblock}{Professional Experience}
+    \cvitem{2015--current}{{\bf Montana State University}, Bozeman, MT}
+	    \cvitem{}{{\em Postdoctoral Researcher}, Dept. of Ecology}
+    \cvitem{2015}{{\bf Colorado State University}, Fort Collins, CO}
+	    \cvitem{}{{\em Instructor}, School of Global Environmental Sustainability}
+    \cvitem{2010--2015}{{\bf Colorado State University}, Fort Collins, CO}
+	    \cvitem{}{{\em Research Assistant}, Dept. of Ecosystem Science and Sustainability}
+    \cvitem{2009--2010}{{\bf Cornell University}, Ithaca, NY}
+	    \cvitem{}{{\em Research Assistant}, Boyce Thompson Institute for Plant Research}
+	\cvitem{2009}{{\bf Cary Institute of Ecosystem Studies}, Millbrook, NY}
+	    \cvitem{}{\em Project Assistant}
+	\cvitem{2007--2008}{{\bf Medomak Valley Land Trust}, Waldoboro, ME}
+	    \cvitem{}{\em Outreach and Stewardship Specialist}
+	\cvitem{2007}{{\bf Acadia National Park}, Bar Harbor, ME}
+	    \cvitem{}{\em Biological Science Technician}
+	\cvitem{2006}{{\bf Colby College}, Waterville, ME}
+	    \cvitem{}{{\em Undergraduate Research Assistant}, Dept. of Environmental Studies}
 \end{cvblock}
 
+\begin{cvblock}{Fellowships and Awards}
+	\cvitem{2013--2014}{{Sustainability Leadership Fellow}, School of Global Environmental Sustainability, CSU}
+	\cvitem{2012}{{Rocky Mountain Research Fellowship}, NSF and Evergreen State College}
+	\cvitem{2011}{{Research Ambassador Fellow}, NSF and Evergreen State College}
+	\cvitem{2011, 2012}{{Honorable Mention, NSF Graduate Research Fellowship Program}}
+	\cvitem{2010}{{Program of Research and Scholarly Excellence Fellowship}, Colorado State University}
+\end{cvblock}
+
+\begin{cvblock}{Teaching and Mentoring Experience}
+	\cvitem{2016}{{Co-Instructor}, Advances in Ecological Modeling, Montana State University}
+	\cvitem{2015}{{Instructor}, Global Environmental Sustainability, Colorado State University}
+	\cvitem{2014}{{Co-Instructor}, Multivariate Statistics, Colorado State University}
+	\cvitem{2014}{{Teaching Assistant}, Ecosystem Ecology, Colorado State University}
+	\cvitem{2013, 2014}{{Research Mentor}, Undergraduate Research Program, Colorado State University}
+	\cvitem{2012, 2013}{{Field Skills Instructor}, Undergraduate Research Program, Colorado State University}
+	\cvitem{2012}{{Teaching Assistant}, Forest Ecology, Colorado State University}
+	\cvitem{2004-2007}{{Writing Instructor and Tutor}, Colby College}
+\end{cvblock}
 
 \begin{cvblock}{Skills and Interests}
-    \cvitem{Areas}{Statistical sampling methods and Bayesian inference, acoustic simulation and numerical partial differential equations, acoustic measurement techniques}
-    \cvitem{Languages}{Python/NumPy/SciPy $\cdot$ Matlab $\cdot$ \LaTeX $\cdot$ Mathematica $\cdot$ HTML/CSS $\cdot$ \emph{basic C/C++}}
+    \cvitem{Research}{Plant community dynamics, global change impacts, forest and rangeland management, ecosystem modeling, applied statistics}
+    \cvitem{Teaching}{Basic and applied ecology, forest ecology, sustainability, research and field methods, biostatistics, science for non-majors}
+    \cvitem{Programming}{R $\cdot$ CDO $\cdot$ \LaTeX $\cdot$ Git $\cdot$ {basic C++} $\cdot$ \em{examples at} https://github.com/krenwick}
 \end{cvblock}
 
-\begin{cvblock}{Awards}
-    \cvitem{2012}{\emph{Leo Beranek Student Medal} - Institute of Noise Control Engineering}
-    \cvitem{2012}{\emph{Fulbright Student Research Grant} (deferred)}
-    \cvitem{2009-2011}{\emph{HASS Fellowship}, Rensselaer Polytechnic Institute}
-    \cvitem{2010}{\emph{ICA Young Scientist Award}, International Congress on Acoustics, Sydney}
-    \cvitem{2008}{\emph{Outstanding Student in Mathematics}, Dept. of Mathematics, Drake University}
-    \cvitem{2004-2008}{\emph{Presidential Scholarship}, Drake University}
-    \cvitem{2004-2008}{\emph{Music Scholarship}, trumpet, Drake University}
+\begin{cvblock}{Publications and Reports}
+	\pubsin{2013}{Botts2013c,Botts2013b,Botts2013a,Henderson2013,Botts2013,Jasa2013,Luizard2013}
+	\pubsin{2012}{Botts2012d,Botts2012c,Henderson2012a}
+	\pubsin{2010}{Xiang2010,Botts2010a}
+	\pubsin{2009}{Tijs2009}
 \end{cvblock}
 
-
-\begin{cvblock}{Professional Service}
-    \cvitem{2010-Present}{{\bf Reviewer }- Journal of the Acoustical Society of America, IEEE Transactions on Audio, Speech, and Language Processing, JASA Express Letters}
-    \cvitem{2012}{{\bf Session organizer} - Acoustics 2012, Hong Kong}
-    \cvitem{2011}{{\bf Session organizer} - 161st Meeting of the ASA, Seattle}
-\end{cvblock}
-
-
-\begin{cvblock}{Teaching}
-    \cvitem{2012}{{\bf Guest instructor}, Sonics Research Lab II, Rensselaer Polytechnic Institute}
-    \cvitem{2011-2012}{{\bf Mentor}, Rensselaer Polytechnic Inst. and Emma Willard High School}
-    \cvitem{2007}{{\bf Physics Tutor}, Department of Physics and Astronomy, Drake University}
-\end{cvblock}
-
-\begin{cvblock}{Affiliations}
-    \cvitem{2009--Present}{Acoustical Society of America}
-    \cvitem{2012--Present}{Institute of Electrical and Electronics Engineers}
-    \cvitem{2012--Present}{IEEE Signal Processing Society}
-    \cvitem{2004--2008}{Phi Mu Alpha Sinfonia: President, treasurer of the Alpha-Beta chapter}
-\end{cvblock}
-
-\clearpage
-
-\begin{cvblock}{Journal and Proceedings Papers}
-    \pubsin{2013}{Botts2013c,Botts2013b,Botts2013a,Henderson2013,Botts2013,Jasa2013,Luizard2013}
-    \pubsin{2012}{Botts2012d,Botts2012c,Henderson2012a}
-    \pubsin{2010}{Xiang2010,Botts2010a}
-    \pubsin{2009}{Tijs2009}
+\begin{cvblock}{Conference Presentations}
+	\cvitem{2016}{{\bf Renwick, K.M.}, Kleinhesselink, A.K., Curtis, C., Schlaepfer, D., Bradley, B., Poulter, B., and P. Adler. "Forecasting changes in the distribution and abundance of sagebrush under climate change," Sagebrush Ecosystems Conservation Conference, Salt Lake City, UT}
+	\cvitem{2016}{{\bf Renwick, K.M.} and M.E. Rocca. "Incorporating non-climatic variables into species distribution models to improve forecasts of landscape-scale range shifts," Open Science Conference, Fort Collins, CO}
+	\cvitem{2016}{{\bf Renwick, K.M.}, Kleinhesselink, A.K., Curtis, C., Schlaepfer, D., Bradley, B., Poulter, B., and P. Adler. "Forecasting changes in the distribution and abundance of sagebrush under climate change," Sagebrush Ecosystems Conservation Conference, Salt Lake City, UT}
+	\cvitem{2016}{{\bf Renwick, K.M.}, Kleinhesselink, A.K., Curtis, C., Schlaepfer, D., Bradley, B., Poulter, B., and P. Adler. "Forecasting changes in the distribution and abundance of sagebrush under climate change," Sagebrush Ecosystems Conservation Conference, Salt Lake City, UT}
+	\cvitem{2016}{{\bf Renwick, K.M.}, Kleinhesselink, A.K., Curtis, C., Schlaepfer, D., Bradley, B., Poulter, B., and P. Adler. "Forecasting changes in the distribution and abundance of sagebrush under climate change," Sagebrush Ecosystems Conservation Conference, Salt Lake City, UT}
+	\cvitem{2015}{{Instructor}, Global Environmental Sustainability, Colorado State University}
+	\cvitem{2014}{{Co-Instructor}, Multivariate Statistics, Colorado State University}
 \end{cvblock}
 
 
-\begin{cvblock}{Book Chapters\\ and Review}
-    \pubsin{2014}{Svensson2014}
-    \pubsin{2012}{Robinson2012}
-    \pubsin{2009}{Botts2009b}
+\begin{cvblock}{Outreach and Service}
+    \cvitem{Reviewer}{Global Ecology and Biogeography, Journal of Plant Ecology, Ecological Modeling}
+    \cvitem{}{}
+    \cvitem{Professional}{Ecological Society of America, Early Career Ecologists Section}
+    \cvitem{Society}{International Association for Landscape Ecologists}
+    \cvitem{Membership}{Association for Women in Science}
+    \cvitem{}{}
+    \cvitem{University}{Editorial Committee, Early Career Climate Forum}
+    \cvitem{Service}{Newsletter Editor, Graduate Degree Program in Ecology (2013--2014)}
+    \cvitem{}{Outreach Chair, Front Range Student Ecology Symposium (2013--2014)}
+    \cvitem{}{Graduate Student Rep., Dept. of Ecosystem Science and Sustainability (2012--2013)}
+    \cvitem{}{President, Front Range Student Ecology Symposium (2011--2012)}
+    \cvitem{}{Fundraising Chair, Front Range Student Ecology Symposium (2010--2011)}
+    \cvitem{}{Student Rep., Faculty Search Commitee, Colorado State University (2011)}
+    \cvitem{}{President, Colby College Environmental Coalition (2005-2007)}
 \end{cvblock}
+
+%\clearpage
+
+
 
 \end{document}

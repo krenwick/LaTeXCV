@@ -36,10 +36,10 @@
 \parbox{\textwidth}{
 	\vspace{3mm}
 	\noindent
-	\parbox{0.21\linewidth}{ \begin{flushright}
+	\parbox{0.6\linewidth}{ \begin{flushleft}
 	\textcolor{darkBlue}{
 	\large\bf  #1}
-	\end{flushright}
+	\end{flushleft}
 	}  \hfill
 	\vspace*{-2.5mm}
 	\textcolor{lg}{\hrule}
@@ -49,7 +49,7 @@
 
 % environment based on supertabular with \blocktitle heading
 % these are the sections or divisions in the cv
-\newenvironment{cvblock}[1]{\blocktitle{#1}\begin{supertabular}{p{0.2\linewidth}p{0.76\linewidth}}}{\end{supertabular} \\[-8pt]} 
+\newenvironment{cvblock}[1]{\blocktitle{#1}\begin{supertabular}{p{0.14\linewidth}p{0.76\linewidth}}}{\end{supertabular} \\[-8pt]} 
 
 % this is the command for 
 \newcommand{\cvitem}[2]{\noindent\raggedleft{\textcolor{Gray}{#1}} & #2 \\}
