@@ -1,14 +1,10 @@
-This is LuaTeX, Version beta-0.80.0 (TeX Live 2015) (rev 5238)  (format=lualatex 2015.5.24)  11 JUL 2016 19:20
+This is LuaTeX, Version beta-0.80.0 (TeX Live 2015) (rev 5238)  (format=lualatex 2015.5.24)  12 JUL 2016 15:11
  restricted \write18 enabled.
-**ExampleCV.tex
-(./ExampleCV.tex
+**KMR_CV.tex
+(./KMR_CV.tex
 LaTeX2e <2015/01/01>
 Babel <3.9l> and hyphenation patterns for 79 languages loaded.
-(../tabcv.cls
-
-LaTeX Warning: You have requested document class `../tabcv',
-               but the document class provides `tabcv'.
-
+(./tabcv.cls
 Document Class: tabcv 2013/06/01 Version 0.1
 (/usr/local/texlive/2015/texmf-dist/tex/latex/base/article.cls
 Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
@@ -320,7 +316,7 @@ luatexbase-attr: luatexbase.attributes["luaotfload@cursbase"] = 6
 luatexbase-attr: luatexbase.attributes["luaotfload@curscurs"] = 7
 luatexbase-attr: luatexbase.attributes["luaotfload@cursdone"] = 8
 luatexbase-attr: luatexbase.attributes["luaotfload@state"] = 9
-luaotfload | main : fontloader loaded in 0.022 seconds
+luaotfload | main : fontloader loaded in 0.020 seconds
 luatexbase-mcb: inserting 'luaotfload.node_processor'
 at position 1 in 'pre_linebreak_filter'
 luatexbase-mcb: inserting 'luaotfload.node_processor'
@@ -602,8 +598,8 @@ File: lettrine.sty 2015/02/16 v1.8 (Daniel Flipo)
 
 Loading lettrine.cfg
 (/usr/local/texlive/2015/texmf-dist/tex/latex/lettrine/lettrine.cfg))
-(./ExampleCV.aux)
-\openout1 = ExampleCV.aux
+(./KMR_CV.aux)
+\openout1 = KMR_CV.aux
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 34.
 LaTeX Font Info:    ... okay on input line 34.
@@ -767,8 +763,6 @@ LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
 (Font)                  OT1/cmss/bx/n --> EU2/lmss/bx/n on input line 34.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
 (Font)                  OT1/cmtt/m/n --> EU2/lmtt/bx/n on input line 34.
-
-No file ExampleCV.bbl.
 (compiling luc: /usr/local/texlive/2015/texmf-var/luatex-cache/generic/fonts/otf
 /lmroman17-regular.luc)(load luc: /Users/poulterlab1/Library/texlive/2015/texmf-
 var/luatex-cache/generic/fonts/otf/lmroman17-regular.luc)(compiling luc: /usr/lo
@@ -800,99 +794,49 @@ Underfull \hbox (badness 10000) in paragraph at lines 70--88
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 89--96
+Underfull \hbox (badness 10000) in paragraph at lines 89--100
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 97--107
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 108--113
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 114--114
+Underfull \hbox (badness 10000) in paragraph at lines 101--111
 
  []
 
 [1
 
 {/usr/local/texlive/2015/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-[2]
-
-LaTeX Warning: Citation `Botts2013c' undefined on input line 115.
-
-
-LaTeX Warning: Citation `Botts2013b' undefined on input line 115.
-
-
-LaTeX Warning: Citation `Botts2013a' undefined on input line 115.
-
-
-LaTeX Warning: Citation `Henderson2013' undefined on input line 115.
-
-
-LaTeX Warning: Citation `Botts2013' undefined on input line 115.
-
-
-LaTeX Warning: Citation `Jasa2013' undefined on input line 115.
-
-
-LaTeX Warning: Citation `Luizard2013' undefined on input line 115.
-
-
-LaTeX Warning: Citation `Botts2012d' undefined on input line 116.
-
-
-LaTeX Warning: Citation `Botts2012c' undefined on input line 116.
-
-
-LaTeX Warning: Citation `Henderson2012a' undefined on input line 116.
-
-
-LaTeX Warning: Citation `Xiang2010' undefined on input line 117.
-
-
-LaTeX Warning: Citation `Botts2010a' undefined on input line 117.
-
-
-LaTeX Warning: Citation `Tijs2009' undefined on input line 118.
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 114--120
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 121--130
+Underfull \hbox (badness 10000) in paragraph at lines 128--140
+
+ []
+
+[2] [3]
+Underfull \hbox (badness 10000) in paragraph at lines 152--157
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 132--148
+Underfull \hbox (badness 10000) in paragraph at lines 158--165
 
  []
 
-[3] (./ExampleCV.aux)
-
-LaTeX Warning: There were undefined references.
-
-)
+[4] (./KMR_CV.aux))
 
 Here is how much of LuaTeX's memory you used:
- 15557 strings out of 494693
+ 15527 strings out of 494693
  100000,383344 words of node,token memory allocated
- 314 words of node memory still in use:
+ 313 words of node memory still in use:
    3 hlist, 1 vlist, 1 rule, 2 glue, 1 kern, 4 attribute, 43 glue_spec, 4 attrib
 ute_list, 1 write nodes
-   avail lists: 1:1,2:8805,3:232,4:1597,5:189,6:2660,7:136,9:413,10:293
- 18937 multiletter control sequences out of 65536+600000
+   avail lists: 1:1,2:11577,3:231,4:1582,5:249,6:3672,7:140,9:416,10:356
+ 18911 multiletter control sequences out of 65536+600000
  37 fonts using 2760967 bytes
- 47i,11n,40p,1204b,213s stack positions out of 5000i,500n,10000p,200000b,100000s
+ 47i,11n,40p,1201b,214s stack positions out of 5000i,500n,10000p,200000b,100000s
 </usr/local/texlive/2015/texmf-dist/fonts/opentype/public/lm/lmroman7-regular.ot
 f></usr/local/texlive/2015/texmf-dist/fonts/opentype/public/lm/lmroman10-italic.
 otf></usr/local/texlive/2015/texmf-dist/fonts/opentype/public/lm/lmroman10-bold.
@@ -902,10 +846,10 @@ ar.otf></usr/local/texlive/2015/texmf-dist/fonts/opentype/public/lm/lmromancaps1
 0-regular.otf></usr/local/texlive/2015/texmf-dist/fonts/opentype/public/lm/lmrom
 an17-regular.otf><</usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfont
 s/cm/cmsy10.pfb>
-Output written on ExampleCV.pdf (3 pages, 42312 bytes).
+Output written on KMR_CV.pdf (4 pages, 48214 bytes).
 
-PDF statistics: 67 PDF objects out of 1000 (max. 8388607)
- 39 compressed objects within 1 object stream
+PDF statistics: 70 PDF objects out of 1000 (max. 8388607)
+ 41 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 131072)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
