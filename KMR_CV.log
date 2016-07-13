@@ -1,4 +1,4 @@
-This is LuaTeX, Version beta-0.80.0 (TeX Live 2015) (rev 5238)  (format=lualatex 2015.5.24)  12 JUL 2016 15:11
+This is LuaTeX, Version beta-0.80.0 (TeX Live 2015) (rev 5238)  (format=lualatex 2015.5.24)  13 JUL 2016 08:32
  restricted \write18 enabled.
 **KMR_CV.tex
 (./KMR_CV.tex
@@ -316,7 +316,7 @@ luatexbase-attr: luatexbase.attributes["luaotfload@cursbase"] = 6
 luatexbase-attr: luatexbase.attributes["luaotfload@curscurs"] = 7
 luatexbase-attr: luatexbase.attributes["luaotfload@cursdone"] = 8
 luatexbase-attr: luatexbase.attributes["luaotfload@state"] = 9
-luaotfload | main : fontloader loaded in 0.020 seconds
+luaotfload | main : fontloader loaded in 0.018 seconds
 luatexbase-mcb: inserting 'luaotfload.node_processor'
 at position 1 in 'pre_linebreak_filter'
 luatexbase-mcb: inserting 'luaotfload.node_processor'
@@ -810,22 +810,22 @@ Underfull \hbox (badness 10000) in paragraph at lines 114--120
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 128--140
-
- []
-
-[2] [3]
-Underfull \hbox (badness 10000) in paragraph at lines 152--157
+[2]
+Underfull \hbox (badness 10000) in paragraph at lines 134--135
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 158--165
+Underfull \hbox (badness 10000) in paragraph at lines 136--152
 
  []
 
-[4] (./KMR_CV.aux))
+
+Underfull \hbox (badness 10000) in paragraph at lines 153--159
+
+ []
+
+[3] (./KMR_CV.aux))
 
 Here is how much of LuaTeX's memory you used:
  15527 strings out of 494693
@@ -833,7 +833,7 @@ Here is how much of LuaTeX's memory you used:
  313 words of node memory still in use:
    3 hlist, 1 vlist, 1 rule, 2 glue, 1 kern, 4 attribute, 43 glue_spec, 4 attrib
 ute_list, 1 write nodes
-   avail lists: 1:1,2:11577,3:231,4:1582,5:249,6:3672,7:140,9:416,10:356
+   avail lists: 1:1,2:11204,3:231,4:1582,5:249,6:3581,7:140,9:416,10:323
  18911 multiletter control sequences out of 65536+600000
  37 fonts using 2760967 bytes
  47i,11n,40p,1201b,214s stack positions out of 5000i,500n,10000p,200000b,100000s
@@ -846,10 +846,10 @@ ar.otf></usr/local/texlive/2015/texmf-dist/fonts/opentype/public/lm/lmromancaps1
 0-regular.otf></usr/local/texlive/2015/texmf-dist/fonts/opentype/public/lm/lmrom
 an17-regular.otf><</usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfont
 s/cm/cmsy10.pfb>
-Output written on KMR_CV.pdf (4 pages, 48214 bytes).
+Output written on KMR_CV.pdf (3 pages, 47952 bytes).
 
-PDF statistics: 70 PDF objects out of 1000 (max. 8388607)
- 41 compressed objects within 1 object stream
+PDF statistics: 67 PDF objects out of 1000 (max. 8388607)
+ 39 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 131072)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
