@@ -1,8 +1,6 @@
 Katie Renwick's CV
-==============
-This repository contains my academic CV. It was created using a LaTex template forked from 
-
-
+==================
+This repository contains my academic CV. I created it using a template forked from https://github.com/bottsj, but added some of my own embellishments. The following explanation is taken directly from the original README file.
 
 LaTeXCV
 =======
