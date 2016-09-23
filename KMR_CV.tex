@@ -12,21 +12,21 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%  To highlight author name in publications sections   %%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\bibliographystyle{myPlain}
+%\bibliographystyle{myPlain}
 % otherwise try, e.g. \bibliographystyle{plain}
 
 % \myname{*} will appear bold in \pubsin{}
-\def\myname{Katherine Renwick}%
+%\def\myname{Katherine Renwick}%
 
 % you could change \textbf to \emph or any other command
- \newcommand{\FormatName}[1]{%
-   \edef\name{#1}%
-   \ifx\name\myname
-     \textbf{#1}%
-   \else
-        #1%
-   \fi
- }
+% \newcommand{\FormatName}[1]{%
+  % \edef\name{#1}%
+  % \ifx\name\myname
+    % \textbf{#1}%
+   %\else
+       % #1%
+   %\fi
+% }
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
@@ -60,7 +60,6 @@
     \cvitem{2007}{ {\bf B.A.} Colby College, Waterville, ME}
     \cvitem{}{Double Major: Environmental Studies and Classics}
     \cvitem{}{\em summa cum laude}
-    %\cvitem{M.S. Thesis}{\em A low-frequency investigation of coupled volume systems using finite-difference time-domain methods.}
 
     \\[-6pt]
 
@@ -70,20 +69,28 @@
 \begin{cvblock}{Professional Experience}
     \cvitem{2015--current}{{\bf Montana State University}, Bozeman, MT}
 	    \cvitem{}{{\em Postdoctoral Researcher}, Dept. of Ecology}
+	    \cvitem{}{Research: Mechanistic modeling of climate change impacts on sagebrush ecosystems}
     \cvitem{2015}{{\bf Colorado State University}, Fort Collins, CO}
 	    \cvitem{}{{\em Instructor}, School of Global Environmental Sustainability}
+	    \cvitem{}{Teaching: Senior capstone course for sustainability minor}
     \cvitem{2010--2015}{{\bf Colorado State University}, Fort Collins, CO}
 	    \cvitem{}{{\em Research Assistant}, Dept. of Ecosystem Science and Sustainability}
+	    \cvitem{}{Research: Interactive effects of climate change and disturbance on forest vegetation}
     \cvitem{2009--2010}{{\bf Cornell University}, Ithaca, NY}
 	    \cvitem{}{{\em Research Assistant}, Boyce Thompson Institute for Plant Research}
+	    \cvitem{}{Research: Insect developmental biology}
 	\cvitem{2009}{{\bf Cary Institute of Ecosystem Studies}, Millbrook, NY}
 	    \cvitem{}{\em Project Assistant}
+	    \cvitem{}{Research: Lyme disease in small mammal communities}
 	\cvitem{2007--2008}{{\bf Medomak Valley Land Trust}, Waldoboro, ME}
 	    \cvitem{}{\em Outreach and Stewardship Specialist}
+	    \cvitem{}{Project management, conservation planning, and volunteer coordination}
 	\cvitem{2007}{{\bf Acadia National Park}, Bar Harbor, ME}
 	    \cvitem{}{\em Biological Science Technician}
+	    \cvitem{}{Research: Long-term monitoring of forest health}
 	\cvitem{2006}{{\bf Colby College}, Waterville, ME}
 	    \cvitem{}{{\em Undergraduate Research Assistant}, Dept. of Environmental Studies}
+	    \cvitem{}{Research: Landscape-scale habitat conservation for apex predators}
 \end{cvblock}
 
 \begin{cvblock}{Fellowships and Awards}
@@ -93,20 +100,29 @@
 	\cvitem{2012}{{Rocky Mountain Research Fellowship}, Rocky Mountain Conservancy}
 	\cvitem{2011}{{Research Ambassador Fellow}, NSF and Evergreen State College}
 	\cvitem{2011, 2012}{{Honorable Mention, NSF Graduate Research Fellowship Program}}
-	%\cvitem{2011--2014}{{Travel Awards, 5 total from CSU, ESA, and NCEAS}}
+	\cvitem{2011--2014}{{Travel Awards, 5 total from CSU, ESA, and NCEAS}}
 	\cvitem{2010}{{Program of Research and Scholarly Excellence Fellowship}, Colorado State University}
 	\cvitem{2010}{{University Graduate Fellowship}, Colorado State University}
+	\cvitem{2007}{{Inducted into Phi Beta Kappa}, Colby College Chapter}
 \end{cvblock}
-
+\\
 \begin{cvblock}{Teaching and Mentoring Experience}
 	\cvitem{2016}{{Co-Instructor}, Advances in Ecological Modeling, Montana State University}
+		%\cvitem{}{Helped develop and teach new 500-level course, mixed graduate/undergraduate}
 	\cvitem{2015}{{Instructor}, Global Environmental Sustainability, Colorado State University}
+	%	\cvitem{}{Sole instructor, senior capstone course for sustainability minor (400-level)}
 	\cvitem{2014}{{Co-Instructor}, Multivariate Statistics, Colorado State University}
+	%	\cvitem{}{Helped develop and teach labs (500-level) }
 	\cvitem{2014}{{Teaching Assistant}, Ecosystem Ecology, Colorado State University}
+	%	\cvitem{}{Contributed to couse development, designed assignments, led discussions (300-level) }
 	\cvitem{2013, 2014}{{Research Mentor}, Undergraduate Research Program, Colorado State University}
+		%\cvitem{}{Supervised three independent study projects}
 	\cvitem{2012, 2013}{{Field Skills Instructor}, Undergraduate Research Program, Colorado State University}
+		%\cvitem{}{Helped with curriculum development and led field skills module}
 	\cvitem{2012}{{Teaching Assistant}, Forest Ecology, Colorado State University}
+	%	\cvitem{}{Taught eight classes, helped design and grade student assignments}
 	\cvitem{2004-2007}{{Writing Instructor and Tutor}, Colby College}
+		%\cvitem{}{Tutored students in all disciplines, instructor for 100-level writing course}
 \end{cvblock}
 
 \begin{cvblock}{Publications and Reports}
@@ -158,4 +174,5 @@
 	\cvitem{Programming}{R $\cdot$ Markdown $\cdot$ JAGS $\cdot$ Shell $\cdot$ CDO $\cdot$ \LaTeX  $\cdot$ Git $\cdot$ basic C++}
 	\cvitem{}{\em examples at https://github.com/krenwick}
 \end{cvblock}
+
 \end{document}

@@ -49,6 +49,7 @@
 
 % environment based on supertabular with \blocktitle heading
 % these are the sections or divisions in the cv
+% p{0.14\linewidth sets indent for cvitems. increase # to increase indent
 \newenvironment{cvblock}[1]{\blocktitle{#1}\begin{supertabular}{p{0.14\linewidth}p{0.76\linewidth}}}{\end{supertabular} \\[-8pt]} 
 
 % this is the command for 
